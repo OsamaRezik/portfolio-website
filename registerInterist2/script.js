@@ -164,3 +164,4 @@ $(document).ready(function() {
         $('#thank-you-message').addClass('d-none');
     });
 });
+

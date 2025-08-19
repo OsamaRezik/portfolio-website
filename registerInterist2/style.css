@@ -607,11 +607,8 @@ padding: 1rem;
 padding: 0.75rem;
 font-size: 16px; /* Prevents zoom on iOS */
 }
-.iti{
-    width: 100% !important;
-    box-sizing: border-box;
-    display: block;
-    direction: ltr;
+.iti__country-list {
+   position: relative;
     text-align: right;
 }
 

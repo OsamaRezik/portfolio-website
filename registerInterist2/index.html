@@ -200,47 +200,47 @@
     </footer>
 
     <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-         <div class="modal-header d-flex justify-content-between flex-row-reverse align-items-center">
-    <button type="button" class="close ml-0 mr-auto" data-dismiss="modal" aria-label="Close" style="font-size:2rem;">
-        <span aria-hidden="true">&times;</span>
-    </button>
-    <h5 class="modal-title mb-0" id="registrationModalLabel">سجل اهتمامك</h5>
-</div>
-      <div class="modal-body">
-    <form id="registration-form">
-        <div class="form-group">
-            <label for="fullName">الاسم الكامل</label>
-            <input type="text" class="form-control" id="fullName" name="fullName" required>
-            <div class="invalid-feedback">الرجاء إدخال الاسم الكامل.</div>
-        </div>
-        <div class="form-group">
-            <label for="email">البريد الإلكتروني</label>
-            <input type="email" class="form-control" id="email" name="email" required>
-            <div class="invalid-feedback">الرجاء إدخال بريد إلكتروني صالح.</div>
-        </div>
-        <div class="form-group">
-            <label for="phone">رقم الهاتف</label>
-            <input type="tel" class="form-control" id="phone" name="phone" required>
-            <div class="invalid-feedback">الرجاء إدخال رقم هاتف صالح.</div>
-        </div>
-        <div class="form-group">
-            <label for="programDropdown">البرنامج المهتم به</label>
-            <select class="form-control" id="programDropdown" name="selectedProgram" required>
-                <option value="">اختر برنامجاً...</option>
-            </select>
-            <div class="invalid-feedback">الرجاء اختيار برنامج.</div>
-        </div>
-        <button type="submit" class="btn btn-block submit-btn mt-4">إرسال الطلب</button>
-    </form>
-    <div id="thank-you-message" class="alert mt-4 d-none">
-        شكراً لك! تم استلام طلبك بنجاح وسنتواصل معك قريباً.
-    </div>
-</div>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content ac-req-modern-main-card p-0">
+            <div class="modal-header ac-req-modern-header d-flex justify-content-between flex-row-reverse align-items-center" style="border-bottom:none;">
+                <button type="button" class="close ml-0 mr-auto" data-dismiss="modal" aria-label="Close" style="font-size:2rem; color:#fff; opacity:1;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title mb-0" id="registrationModalLabel">سجل اهتمامك</h5>
+            </div>
+            <div class="modal-body ac-req-modern-section-content" style="padding:2rem;">
+                <form id="registration-form">
+                    <div class="form-group">
+                        <label for="fullName" class="ac-req-modern-label">الاسم الكامل</label>
+                        <input type="text" class="form-control ac-req-modern-input" id="fullName" name="fullName" required>
+                        <div class="invalid-feedback">الرجاء إدخال الاسم الكامل.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="ac-req-modern-label">البريد الإلكتروني</label>
+                        <input type="email" class="form-control ac-req-modern-input" id="email" name="email" required>
+                        <div class="invalid-feedback">الرجاء إدخال بريد إلكتروني صالح.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" class="ac-req-modern-label">رقم الهاتف</label>
+                        <input type="tel" class="form-control ac-req-modern-input" id="phone" name="phone" required>
+                        <div class="invalid-feedback">الرجاء إدخال رقم هاتف صالح.</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="programDropdown" class="ac-req-modern-label">البرنامج المهتم به</label>
+                        <select class="form-control ac-req-modern-input" id="programDropdown" name="selectedProgram" required>
+                            <option value="">اختر برنامجاً...</option>
+                        </select>
+                        <div class="invalid-feedback">الرجاء اختيار برنامج.</div>
+                    </div>
+                    <button type="submit" class="btn ac-req-modern-btn btn-block submit-btn mt-4">إرسال </button>
+                </form>
+                <div id="thank-you-message" class="alert ac-req-modern-alert ac-req-modern-alert-success mt-4 d-none">
+                    شكراً لك! تم استلام طلبك بنجاح وسنتواصل معك قريباً.
+                </div>
             </div>
         </div>
     </div>
+</div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>

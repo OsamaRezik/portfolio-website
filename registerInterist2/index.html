@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ابدأ رحلتك الأكاديمية</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="overlay"></div>
+        <div class="container text-center text-white">
+            <h1 class="hero-title">ابدأ رحلتك الأكاديمية معنا</h1>
+            <p class="hero-subtitle">برامج بكالوريوس، ماجستير، ودكتوراه تفتح لك آفاق المستقبل</p>
+            <button class="btn btn-primary hero-btn" data-toggle="modal" data-target="#registrationModal">قدم الآن</button>
+        </div>
+    </header>
+
+    <section id="programs-section" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">برامجنا الأكاديمية</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="programs-column-title text-center">برامج البكالوريوس</h3>
+                    <div class="d-flex flex-column align-items-stretch">
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-gavel"></i></div>
+                            <h5 class="card-title">البكالوريوس في القانون</h5>
+                            <p class="card-text">يهدف البرنامج إلى إعداد جيل من الخريجين يتمتعون بمهارات قانونية عالية.</p>
+                           <button class="btn btn-primary mt-3 apply-btn" data-program-type="bachelor" data-program="البكالوريوس في القانون">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-balance-scale"></i></div>
+                            <h5 class="card-title">البكالوريوس في القانون وعلوم الشرطة</h5>
+                            <p class="card-text">برنامج يجمع بين الدراسات القانونية والأسس العلمية للعمل الشرطي.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="البكالوريوس في القانون وعلوم الشرطة">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h5 class="card-title">البكالوريوس في العلوم الأمنية</h5>
+                            <p class="card-text">تخصص يزود الطلاب بالمهارات اللازمة للتعامل مع التحديات الأمنية المعاصرة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="البكالوريوس في العلوم الأمنية">قدم الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="programs-column-title text-center">برامج الماجستير</h3>
+                    <div class="d-flex flex-column align-items-stretch">
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-seedling"></i></div>
+                            <h5 class="card-title">الماجستير في القانون والبيئة</h5>
+                            <p class="card-text">دراسة متعمقة للتشريعات والقوانين المتعلقة بحماية البيئة.</p>
+                           <button class="btn btn-primary mt-3 apply-btn" data-program-type="master" data-program="الماجستير في القانون والبيئة">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                            <h5 class="card-title">ماجستير القانون في حقوق الإنسان</h5>
+                            <p class="card-text">برنامج يركز على القوانين والاتفاقيات الدولية لحقوق الإنسان.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="ماجستير القانون في حقوق الإنسان">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-user-secret"></i></div>
+                            <h5 class="card-title">ماجستير في البحث الجنائي</h5>
+                            <p class="card-text">تخصص يزود الطلاب بمهارات التحقيق والتحليل الجنائي المتقدمة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="ماجستير في البحث الجنائي">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-lock"></i></div>
+                            <h5 class="card-title">الماجستير في الأمن السيبراني</h5>
+                            <p class="card-text">برنامج يركز على الجوانب القانونية والتقنية للجرائم الإلكترونية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="الماجستير في الأمن السيبراني">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <h5 class="card-title">الماجستير في إدارة الأزمات الأمنية</h5>
+                            <p class="card-text">تطوير المهارات القيادية في التخطيط والاستجابة للأزمات الأمنية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="الماجستير في إدارة الأزمات الأمنية">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-chart-pie"></i></div>
+                            <h5 class="card-title">ماجستير القانون في الاستثمارات الدولية والقانون التجاري</h5>
+                            <p class="card-text">دراسة متخصصة في التشريعات التجارية والاستثمارية على المستوى الدولي.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="ماجستير القانون في الاستثمارات الدولية والقانون التجاري">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-user-lock"></i></div>
+                            <h5 class="card-title">الماجستير في العلوم الجنائية</h5>
+                            <p class="card-text">تطوير الخبرات في علم الجريمة ونظم العدالة الجنائية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="الماجستير في العلوم الجنائية">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-file-contract"></i></div>
+                            <h5 class="card-title">الماجستير في القانون الخاص</h5>
+                            <p class="card-text">برنامج يغطي فروع القانون المدني والتجاري والأسرة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="الماجستير في القانون الخاص">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-landmark"></i></div>
+                            <h5 class="card-title">الماجستير في القانون العام</h5>
+                            <p class="card-text">تخصص يركز على القانون الدستوري والإداري والمالية العامة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="الماجستير في القانون العام">قدم الآن</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="programs-column-title text-center">برامج الدكتوراه</h3>
+                    <div class="d-flex flex-column align-items-stretch">
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                            <h5 class="card-title">دكتوراه في إدارة الأزمات الأمنية</h5>
+                            <p class="card-text">دراسة بحثية متقدمة في نظريات واستراتيجيات إدارة الأزمات الأمنية.</p>
+                           <button class="btn btn-primary mt-3 apply-btn" data-program-type="doctorate" data-program="دكتوراه في إدارة الأزمات الأمنية">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-seedling"></i></div>
+                            <h5 class="card-title">دكتوراه القانون والبيئة</h5>
+                            <p class="card-text">بحث متقدم في القضايا القانونية والتشريعات البيئية الحديثة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه القانون والبيئة">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-hands-helping"></i></div>
+                            <h5 class="card-title">دكتوراه القانون في حقوق الإنسان</h5>
+                            <p class="card-text">دراسة بحثية معمقة في مبادئ وتحديات حقوق الإنسان الدولية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه القانون في حقوق الإنسان">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-user-secret"></i></div>
+                            <h5 class="card-title">دكتوراه في البحث الجنائي</h5>
+                            <p class="card-text">بحث أصيل في نظريات وتطبيقات البحث الجنائي المتقدمة.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه في البحث الجنائي">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-chart-pie"></i></div>
+                            <h5 class="card-title">دكتوراه القانون في الاستثمارات الدولية والقانون التجاري</h5>
+                            <p class="card-text">دراسة متقدمة للأطر القانونية للاستثمارات والتجارة الدولية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه القانون في الاستثمارات الدولية والقانون التجاري">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-user-lock"></i></div>
+                            <h5 class="card-title">دكتوراه في العلوم الجنائية</h5>
+                            <p class="card-text">رسالة دكتوراه في النظريات المتقدمة للعلوم الجنائية.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه في العلوم الجنائية">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-file-contract"></i></div>
+                            <h5 class="card-title">دكتوراه في القانون الخاص</h5>
+                            <p class="card-text">بحث أصيل في أحدث المستجدات في القانون الخاص.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه في القانون الخاص">قدم الآن</button>
+                        </div>
+                        <div class="program-card mb-4">
+                            <div class="card-icon"><i class="fas fa-landmark"></i></div>
+                            <h5 class="card-title">دكتوراه في القانون العام</h5>
+                            <p class="card-text">دراسة معمقة في القانون الدستوري والإداري المعاصر.</p>
+                            <button class="btn btn-primary mt-3 apply-btn" data-program="دكتوراه في القانون العام">قدم الآن</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section text-center py-5">
+        <div class="container">
+            <h2 class="mb-5 section-title text-white">أرقام تفتخر بها جامعتنا</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="stat-box">
+                        <i class="fas fa-graduation-cap stat-icon"></i>
+                        <h3 class="stat-number">150+</h3>
+                        <p class="stat-label">برنامج أكاديمي</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="stat-box">
+                        <i class="fas fa-users stat-icon"></i>
+                        <h3 class="stat-number">25,000+</h3>
+                        <p class="stat-label">خريج ناجح</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="stat-box">
+                        <i class="fas fa-globe stat-icon"></i>
+                        <h3 class="stat-number">50+</h3>
+                        <p class="stat-label">شريك دولي</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-4 text-white text-center">
+        <div class="container">
+            <p>&copy; 2025 الجامعة الأكاديمية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+         <div class="modal-header d-flex justify-content-between flex-row-reverse align-items-center">
+    <button type="button" class="close ml-0 mr-auto" data-dismiss="modal" aria-label="Close" style="font-size:2rem;">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <h5 class="modal-title mb-0" id="registrationModalLabel">سجل اهتمامك</h5>
+</div>
+      <div class="modal-body">
+    <form id="registration-form">
+        <div class="form-group">
+            <label for="fullName">الاسم الكامل</label>
+            <input type="text" class="form-control" id="fullName" name="fullName" required>
+            <div class="invalid-feedback">الرجاء إدخال الاسم الكامل.</div>
+        </div>
+        <div class="form-group">
+            <label for="email">البريد الإلكتروني</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <div class="invalid-feedback">الرجاء إدخال بريد إلكتروني صالح.</div>
+        </div>
+        <div class="form-group">
+            <label for="phone">رقم الهاتف</label>
+            <input type="tel" class="form-control" id="phone" name="phone" required>
+            <div class="invalid-feedback">الرجاء إدخال رقم هاتف صالح.</div>
+        </div>
+        <div class="form-group">
+            <label for="programDropdown">البرنامج المهتم به</label>
+            <select class="form-control" id="programDropdown" name="selectedProgram" required>
+                <option value="">اختر برنامجاً...</option>
+            </select>
+            <div class="invalid-feedback">الرجاء اختيار برنامج.</div>
+        </div>
+        <button type="submit" class="btn btn-block submit-btn mt-4">إرسال الطلب</button>
+    </form>
+    <div id="thank-you-message" class="alert mt-4 d-none">
+        شكراً لك! تم استلام طلبك بنجاح وسنتواصل معك قريباً.
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
